@@ -52,10 +52,9 @@ Each dataset (`geo_data_0.csv`, `geo_data_1.csv`, `geo_data_2.csv`) contains:
 
 ## Getting Started
 
-1. **Clone the repository**
+**Clone the repository**  
+          or
+**Install the required dependencies:**
 
 ```bash
-
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
-
-git clone https://github.com/caden-ringwood/Oil-Well-Prediction.git
