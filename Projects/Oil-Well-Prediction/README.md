@@ -1,6 +1,7 @@
-# Oil Project
+# OilyGiant Oil Well Development Project
 
-This project analyzes and visualizes oil-related data to identify trends, patterns, and insights. It is part of a data analysis initiative to explore energy market behaviors and resource management.
+This project applies machine learning and statistical analysis to determine the most profitable region for developing new oil wells.  
+It was completed as part of a data science program and demonstrates skills in predictive modeling, financial analysis, and risk evaluation.
 
 ---
 
@@ -10,45 +11,51 @@ This project analyzes and visualizes oil-related data to identify trends, patter
 - [Technologies](#technologies)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
+- [Results](#results)
 - [Contact](#contact)
 
 ---
 
 ## About
-The Oil Project focuses on analyzing historical oil production, consumption, and price data. It uses data science techniques such as data cleaning, analysis, and visualization to provide actionable insights.
+OilyGiant, an oil company, needs to decide where to open a new drilling site.  
+The project uses data from three regions, trains machine learning models to predict well reserves, and applies profit and risk calculations to recommend the optimal location.
 
 ---
 
 ## Dataset
-The project uses datasets including:
-- Global oil production and consumption data
-- Historical oil price data
-- [Other relevant datasets]
+Each dataset (`geo_data_0.csv`, `geo_data_1.csv`, `geo_data_2.csv`) contains:  
+- **id**: Unique well identifier  
+- **f0, f1, f2**: Geological features  
+- **product**: Predicted reserves (thousand barrels)  
 
-*You can add links to the datasets here if they are public.*
+*The data is synthetic and provided for educational purposes.*
 
 ---
 
 ## Technologies
-- Python 3.x
-- Pandas
-- NumPy
-- Matplotlib / Seaborn / Plotly
-- Jupyter Notebook
+- Python 3.x  
+- Pandas, NumPy  
+- Scikit-learn (Linear Regression, train/test split, metrics)  
+- Matplotlib / Seaborn (visualizations)  
+- Jupyter Notebook  
 
 ---
 
 ## Features
-- Clean and preprocess oil datasets
-- Analyze trends in oil production, consumption, and pricing
-- Visualize historical and predictive patterns
-- Export insights and visualizations
+- Data preprocessing and exploration of three oil regions  
+- Linear regression modeling to predict oil reserves  
+- Profit calculation under fixed budget and well selection rules  
+- Bootstrapping (1,000 iterations) to estimate confidence intervals and risk of losses  
+- Final recommendation of the best region to maximize profit with <2.5% risk of losses  
 
 ---
 
 ## Getting Started
 
 1. **Clone the repository**
+
 ```bash
-git clone https://github.com/caden-ringwood/oil-project.git
+
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+
+git clone https://github.com/caden-ringwood/Oil-Well-Prediction.git
