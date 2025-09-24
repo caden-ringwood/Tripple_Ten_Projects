@@ -75,4 +75,4 @@ This prediction helps **optimize efficiency in gold extraction** and reduce loss
     jupyter notebook notebooks/gold-recovery-prediction.ipynb
 ## Auther
 **Caden Ringwood**
-- [LinkedIn](www.linkedin.com/in/caden-ringwood)
+- [LinkedIn](https://www.linkedin.com/in/caden-ringwood/)
