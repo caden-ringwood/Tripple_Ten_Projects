@@ -4,7 +4,7 @@ This project analyzes industrial ore processing data and applies machine learnin
 It was completed as part of a data science portfolio and demonstrates skills in data exploration, feature engineering, and predictive modeling.
 
 ## Project Structure
-
+```
 gold-recovery-prediction/
 │
 ├── data/ # Datasets
@@ -15,18 +15,8 @@ gold-recovery-prediction/
 ├── notebooks/
 │ └── gold-recovery-prediction.ipynb # Main notebook
 │
-├── reports/ # Reports and visuals
-│ ├── figures/ # Plots & visualizations
-│ └── final-report.pdf # (Optional) Project summary
-│
-├── src/ # Python scripts (optional modularization)
-│ ├── data_preprocessing.py
-│ └── model_training.py
-│
-├── .gitignore
-├── README.md
-└── requirements.txt
-
+└──  README.md
+```
 
 ## Project Overview
 
